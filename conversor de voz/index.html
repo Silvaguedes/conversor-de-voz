@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de Voz para Texto</title>
+</head>
+
+<body>
+    <container class="container">
+        <div>
+        <h1>Conversão de Voz para Texto</h1>
+    </div>
+
+        <label for="language">Escolha o idioma:</label>
+
+        <select id="language">
+            <option value="pt-BR">Português</option>
+            <option value="en-US">Inglês</option>
+            <option value="de-DE">Alemão</option>
+            <option value="fr-FR">Francês</option>
+            <option value="es-ES">Espanhol</option>
+        </select>
+
+     <div>  <button id="start-button">Clique para falar</button></div> 
+     <div id="return"> <p>Texto reconhecido:   <span id="output"></span> </p></div>  
+
+    </container>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
